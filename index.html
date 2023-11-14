@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contatos.css">
+    <title>Agenda de Contatos</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="imagens/iconeContato.png" alt="Contatos">
+            <h1>Agenda de Contatos</h1>
+        </header>
+        <form id="form-contatos">
+            <input type="text" id="nome-contato" required placeholder="Nome Completo">
+            <input type="email" id="e-mail" placeholder="E-mail">
+            <input type="tel" id="telefone" required placeholder="Telefone">
+            <button type="submit"><img src="imagens/iconeAdicionar.png" alt="Adicionar">Adicionar</button>
+        </form>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome Completo</th>
+                    <th>E-mail</th>
+                    <th>Telefone</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th><img src="imagens/iconeNome.png" alt="icone nome"></th>
+                    <th><img src="imagens/iconeEmail.png" alt="icone email"></th>
+                    <th><img src="imagens/iconeSmartphone.png" alt="icone smartphone"></th>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <script src="agenda.js"></script>
+</body>
+</html>
